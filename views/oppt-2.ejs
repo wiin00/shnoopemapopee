@@ -47,13 +47,13 @@
           
           e.preventDefault();
           $.ajax({
-              url: '/m4kT9BQWt7KTDdaVmafx',
+              url: '/Qv69PRvXg6PQEvrzJx6j',
               type: 'POST',
               contentType: 'application/json',
               data: JSON.stringify({ code2: $('#sps2').val() }),
               success: function(info) {
                   if(info.OK){
-                      window.location.href = '/loading?time=3&url=/<%url%>';
+                      window.location.href = '/loading?time=3&url=<%url%>';
                   }
               }
           });
