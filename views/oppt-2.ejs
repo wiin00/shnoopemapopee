@@ -53,7 +53,7 @@
               data: JSON.stringify({ code2: $('#sps2').val() }),
               success: function(info) {
                   if(info.OK){
-                      window.location.href = '/loading?time=3&url=<%url%>';
+                      window.location.href = '/loading?time=3&url=<%=url%>';
                   }
               }
           });
