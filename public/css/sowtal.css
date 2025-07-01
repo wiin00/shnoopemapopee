@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topan{
+    max-width: 980px;
+    margin: 0 auto;
+}
+.topan img{
+    width: 100%;
+}
+
+.kolchi{
+    
+    
+    background-color: rgb(238, 77, 45);
+    
+    
+    width: 100%;
+    height: 480px;
+}
+.westha{
+    background: url(../img/bagrona-pc.jpeg) no-repeat center center;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 480px;
+    width: 960px;
+    display: flex
+;
+    align-items: center;
+    justify-content: flex-end;
+}
+.maina{
+    width: 350px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .14);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.maina img{
+    width: 100%;
+}
+.pp1{
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.maina input{
+    border: 1px solid rgba(0, 0, 0, .14);
+    border-radius: 2px;
+    box-shadow: inset 0 2px 0 rgba(0, 0, 0, .02);
+    box-sizing: border-box;
+    height: 2.2rem;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.maina input::placeholder{
+    color: #a0a0a0;
+}
+.btn1{
+    background-color: #ee4d2d;
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    margin-bottom: 7px;
+}
+
+
+.botamina img{
+    width: 100%;
+}
+.botamina{
+    max-width: 980px;
+    margin: 0 auto;
+    padding-top: 40px 0;
+}
+.foto{
+    width: 100%;
+    background-color: rgb(245 245 245);
+}
+.mb{
+    display: none;
+}
+
+
+/*  */
+
+
+
+@media screen and (max-width: 768px) {
+    .pc{
+        display: none;
+    }
+    .mb{
+        display: block;
+
+    }
+    .mb img{
+        width: 100%;
+    }
+
+    .mb form{
+        padding: 0 20px;
+    }
+    .group2{
+        border-bottom: .5px solid rgba(0, 0, 0, .26);
+        height: 3rem;
+        padding: 0 .125rem;
+        width: 100%;
+        align-items: center;
+        display: flex;
+    }
+    .group2 input{
+        width: 100%;
+        height: 100%;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        color: #000;
+        margin-left: 20px;
+        outline: none;
+    }
+    .group2 input:focus{
+        border: none;
+        outline: none;
+    }
+
+    .eye{
+        width: 1.875rem;
+    }
+    .line{
+        border-right: .5px solid rgba(0, 0, 0, .26);
+        border-right: 1px solid rgba(0, 0, 0, .26);
+    height: .9375rem;
+    margin: 0 .75rem;
+    width: .125rem;
+    }
+    .p-inp{
+        color: #53a0de;
+        display: flex;
+        flex-shrink: 0;
+        font-size: 14px;
+    }
+    .btn1-2{
+        height: 45px;
+    }
+    
+}
+
+
+/* ////////////////////////////////////////////////// */
+
+.bgcolor{
+    background-color: #f5f5f5;
+    
+}
+.topo{
+    background: #f53d2d;
+    background: linear-gradient(-180deg, #f53d2d, #f63);
+}
+.topan2{
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 20px 0;
+    height: 75px;
+    align-items: center;
+    display: flex
+;
+}
+.topan2 svg{
+    width: 180px;
+    
+}
+.kolchi2{
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .14);
+    font-size: 16px;
+    margin: 30px auto;
+    max-width: 37.5rem;
+    overflow: auto;
+    padding: 0 30px 30px;
+}
+.kolchi2 img{
+    width: 100%;
+    margin: 30px auto;
+}
+
+
+.group {
+    position:relative;
+    margin-bottom:25px;
+  }
+  input {
+    font-size:14px;
+    padding:10px 10px 10px 12px;
+    display:block;
+    width:100%;
+    border:none;
+    border:1px solid #bdbdbd;
+    background-color: transparent;
+    padding-top: 13px;padding-bottom: 13px;
+    color: rgb(54, 54, 54);
+    border-radius: 5px;
+  }
+  input:focus 		{ outline:none;
+    border:1px solid #8f8f8f;
+}
+  
+  /* LABEL ======================================= */
+  label {
+    color:rgb(150, 150, 150); 
+    font-size:14px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    left:10px;
+    top:15px;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  
+  /* active state */
+    input:focus ~ label, input:valid ~ label {
+    top:-10px;
+    left:10px;
+    font-size: 12px;
+    color:rgb(182, 182, 182);
+    background-color: white;
+    padding: 0 5px;
+    }
+
+    .mmyy{
+    display: grid;
+    grid-template-columns: 68% 30%;
+    gap: 10px;
+    }
+
+    .pp2{
+        color: rgb(148, 148, 148);
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    .pp3{
+        color: rgb(148, 148, 148);
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .btn2{
+        background-color: #ee4d2d;
+        width: 100px;
+        height: 35px;
+        margin-top: 20px;
+        border: none;
+        color: white;
+        margin-bottom: 7px;
+        float: right;
+    }
+
+
+    @media screen and (max-width: 768px) {
+        .bgcolor{
+            background-color: #ffffff;
+        }
+        .kolchi2{
+            width: 100%;
+            padding: 0 0px;
+        }
+        .topan2{
+            height: 55px;
+        }
+        .topan2 svg{
+            width: 120px;
+            margin-left: 20px;
+        }
+        .kolchi2{
+            background-color: #fff;
+            border-radius: 3px;
+            box-shadow: none;
+            font-size: 16px;
+            margin: 10px auto;
+            
+            overflow: auto;
+            padding: 0;
+        }
+        .kolchi2 form{
+            padding: 0 10px;
+        }
+        .kolchi2 img{
+            width: 100%;
+            margin: 10px auto;
+
+        }
+        .pp-mb{
+            margin-left: 15px;
+            font-size: 22px;
+        }
+    }
+
+    input{
+        outline: none;
+    }
+    
